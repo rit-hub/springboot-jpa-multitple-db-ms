@@ -1,0 +1,26 @@
+#spring:
+#  datasource:
+#    mysql:
+#      url: jdbc:mysql://localhost:3306/jooq_practice
+#      username: root
+#      password: root
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#    postgres:
+#      url: jdbc:postgresql://localhost:5432/jooq_postgres
+#      username: postgres
+#      password: root
+#      driver-class-name: org.postgresql.Driver
+
+#  jpa:
+#    mysql:
+#      properties:
+#        hibernate:
+#          dialect: org.hibernate.dialect.MySQLDialect
+#      hibernate:
+#        ddl-auto: update
+#    postgres:
+#      properties:
+#        hibernate:
+#          dialect: org.hibernate.dialect.PostgreSQLDialect
+#      hibernate:
+#        ddl-auto: update
